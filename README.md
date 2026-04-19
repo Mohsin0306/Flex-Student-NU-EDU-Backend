@@ -12,8 +12,9 @@ Backend API for Flex Student Portal (Node.js, Express, MongoDB).
    - `npm run dev` (development)
    - `npm run start` (production mode)
 
-Health check:
+Health checks:
 - `GET /api/health`
+- `GET /health`
 
 ## Railway Deployment (Easy Steps)
 
@@ -42,7 +43,7 @@ Add these from `.env.example`:
 - Railway auto-installs dependencies and runs:
   - `npm run start`
 - Health check path:
-  - `/api/health`
+  - `/health`
 
 ### 5) Use Public URL
 - After deploy, Railway gives a public domain
